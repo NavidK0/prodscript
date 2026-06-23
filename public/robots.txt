@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# There is no staging to disallow. There is only production.

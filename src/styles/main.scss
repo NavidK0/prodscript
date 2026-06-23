@@ -1,0 +1,7 @@
+// ===========================================================================
+// ProdScript — the best way to build.
+// Entry stylesheet. Partials load in cascade order: tokens → base → sections.
+// ===========================================================================
+@use 'tokens';
+@use 'base';
+@use 'sections';

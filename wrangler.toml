@@ -1,0 +1,8 @@
+# Cloudflare Workers — static assets. Serves the built Vite site from ./dist.
+# Cloudflare's unified Workers/Pages flow deploys this with `wrangler deploy`.
+name = "prodscript"
+compatibility_date = "2026-06-23"
+
+[assets]
+directory = "./dist"
+not_found_handling = "404-page"
